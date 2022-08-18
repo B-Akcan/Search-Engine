@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+}
+body a {
+  text-align: right;
+  color: white;
+  margin-bottom: 150px;
+}
+body a:hover {
+  color: white;
+}
+body .inputs {
+  width: 600px;
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+}
+body h1 {
+  color: black;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+body h2 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+body .container {
+  margin-left: 20px;
+}
+body .row {
+  margin-bottom: 15px;
+}
+body #submit {
+  color: white;
+  font-family: sans-serif;
+  background-color: rgb(0, 106, 255);
+  width: auto;
+  height: 40px;
+  margin-left: 680px;
+  margin-top: 20px;
+  border: 0px;
+}
+
+/*# sourceMappingURL=advanced_search.css.map */

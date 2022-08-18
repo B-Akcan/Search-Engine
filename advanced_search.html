@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="advanced_search.css">
+    </head>
+    <body>
+        <input type="hidden" name="as_qdr" value="all">
+        <input type="hidden" name="as_occt" value="any">
+        <div class="row">
+            <a href="index.html">Google Search</a>
+        </div>
+        <form action="https://www.google.com/search">
+            <div class="container">
+                <div class="row">
+                    <h1>Find pages with...</h1>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h2>all these words:</h2>
+                    </div>
+                    <div class="col-3">
+                        <input class="inputs" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h2>this exact word or phrase:</h2>
+                    </div>
+                    <div class="col-3">
+                        <input class="inputs" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h2>any of these words:</h2>
+                    </div>
+                    <div class="col-3">
+                        <input class="inputs" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h2>none of these words:</h2>
+                    </div>
+                    <div class="col-3">
+                        <input class="inputs" type="text" name="as_eq">
+                    </div>
+                </div>
+                <div class="row">
+                    <input id="submit" type="submit" value="Advanced Search">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

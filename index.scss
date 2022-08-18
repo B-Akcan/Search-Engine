@@ -1,0 +1,64 @@
+body
+{
+    background-color: white;
+    a
+    {
+        color: black;
+        text-align: right;
+    }
+    a:hover
+    {
+        color: black;
+    }
+    .container
+    {
+        #row0
+        {
+            font-size: 90px;
+            font-family: sans-serif;
+            color: black;
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 80px;
+            
+        }
+        #row1
+        {
+            #text
+            {
+                color: black;
+                height: 45px;
+                width: 580px;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid #bdc1c6;
+                border-radius: 20px;
+            }
+        }
+        #row2
+        {
+            #googlesearch
+            {
+                color: black;
+                font-family: sans-serif;
+                width: auto;
+                height: 35px;
+                margin-top: 30px;
+                margin-left: auto;
+                border: 0px;
+            }
+            #imfeelinglucky
+            {
+                color: black;
+                font-family: sans-serif;
+                width: auto;
+                height: 35px;
+                margin-top: 30px;
+                margin-left: 10px;
+                margin-right: auto;
+                border: 0px;
+            }
+        }
+    }
+}
